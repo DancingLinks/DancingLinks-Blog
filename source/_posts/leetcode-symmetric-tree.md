@@ -2,7 +2,10 @@
 title: leetcode symmetric-tree
 date: 2020-03-04 18:48:23
 tags:
+    - leetcode
     - 二叉树
+categories:
+    - 算法
 ---
 
 ## 传送门

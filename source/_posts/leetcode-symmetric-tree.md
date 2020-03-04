@@ -1,5 +1,6 @@
 ---
 title: leetcode symmetric-tree
+author: Yu Qian
 date: 2020-03-04 18:48:23
 tags:
     - leetcode

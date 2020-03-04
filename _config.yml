@@ -3,11 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: TONGJI-ACM-WIKI
-subtitle:
-description:
-author: PrIce Qian
-language:
+title: Yu Qian's - Blog
+subtitle: code & something
+author: Yu Qian
+language: zh
 timezone:
 
 # URL
@@ -16,6 +15,7 @@ url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
 
 # Directory
 source_dir: source
@@ -64,7 +64,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 ## theme: landscape
-theme: Alex
+theme: clean-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -72,3 +72,28 @@ deploy:
   type: git
   repo: https://github.com/DancingLinks/dancinglinks.github.io.git
   branch: master
+
+# Header
+menu:
+  Home: /
+  # Archives: /archives
+  Tags: /tags
+  Categories: /categories
+  About: /about
+  Github:
+    url: https://github.com/DancingLinks
+    icon: github
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: DancingLinks
+
+# URL of the Home page image
+index_cover: /img/home-bg.jpg
+
+# Social Accounts
+twitter_url:
+facebook_url:
+github_url: https://github.com/DancingLinks
+linkedin_url:
+mailto:
+
